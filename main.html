@@ -1,34 +1,131 @@
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-
-  <title>RevisionTaskOne</title>
-  <link rel="stylesheet" href="style.css">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <nav>
-        <div class="upper">
-            <div class="sides">
-                <a id="id1" href="#">Payments</a>
-                <a href="#">Account and Cards</a>
-                <a href="#">Directories</a>
-                <a href="#">FAQ</a>
-                <a href="#">Bonuses</a>
+        <div class="upCon">
+            <div class="sideCon">
+                <a id="id1" href="#" style="text-decoration: none; "><b>Payments</b></a>
+                <a href="#" style="text-decoration: none;"><b>Account and Cards</b></a>
+                <a href="#" style="text-decoration: none;"><b>Directories</b></a>
+                <a href="#" style="text-decoration: none;"><b>FAQ</b></a>
+                <a href="#" style="text-decoration: none;"><b>Bonuses</b></a>
             </div>
 
-            <div class="sides2">
-                <a id="id2" href="#"> <alt="id2"></a>
-                <a href="#">< alt="bell"></a>
-                <a href="#">id3 <select name="" id="id3"></select></a>
-                <a href="#">Sign Out</a>
+            <div  style="margin-top: 20px; margin-left: 350px;">
+                <i class="far fa-envelope" style="margin: 10px;"></i>    
+                <i class="fas fa-bell"></i>  
+                <a href="#" style="text-decoration: none;"><b>Cornelius</b> <select id="corn"></select></a>
+                <a href="#" style="text-decoration: none; ;"><b>Sign Out</b></a>
             </div>
         </div>
-        
+        <div>
+            <h1 class="navCon"><b>Payments by <span class="classC">all accounts <select name="" class="drop"></select></span>for
+                <span class="classC">last month <select name="" class="drop"></select></span></b>
+            </h1>
+            <span style="margin-left: 150px;"> Coming</span>
+            <span style="margin-left: 150px;"> Expenses</span>
+            <span style="margin-left: 350px;">  <select name="" class="drop"></select>Hide Analytics</span>
+            <h3 style="margin-left: 145px; color: #6CD7D1;">255 007 <span style="font-size: smaller;">UAH</span>
+            </h3>
+            <h3 style="margin-left: 365px;color: #d66a6a; margin-top: -40px;">5 359 <span style="font-size: smaller;">UAH</span>
+            </h3>
+        </div>
     </nav>
+    <div class="icon" style="margin-top: 270px;">
 
+        <p id="id2">All<span>400</span></p>
+        <p class="circle" id="paleB"></p>
+        <p>Income  <span>95</span></p>
+        <p class="circle" id="lightB"></p>
+        <p>Outcome <span>44</span></p>
+        <p class="circle" id="bringal"></p>
+        <p>To sign <span>1</span></p>
 
+    </div>
+    <input type="text" style="float: right; margin-right: 200px; margin-top: -30px; height: 35px;  border-radius: 5px;" placeholder="Search..">
 
+    <div class="tableToday">
+        <h6>Today</h6>
+        <table>
+            <tr>
+                <td class="entryData">Private entrepreneur Vasily Palamarenko</td>
+                <td class="dataSize debit" rowspan="2">-3540</td>
+                <td class="dataSize" rowspan="2"><button type="" class="subB">Subscribe</button></td>
+                <td class="dataSize" rowspan="2">More <Select></Select></td>
+            </tr>
+            <tr>
+                <td style="color: #3F4449; font-size: 12px;">Warehouse rental For May</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="entryData">Secondary specialized school No43</td>
+                <td class="dataSize credit" rowspan="2" class="credit">+5300 UAH</td>
+                <td class="dataSize" rowspan="2"><button class="creditB" >Income </button></td>
+                <td class="dataSize" rowspan="2">More <Select></Select></td>
+            </tr>
+            <tr>
+                <td style="color: #3F4449; font-size: 12px;">Delivery Of Multimedia Equipment, Contract#23-34</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="entryData">LLC "SAV-DISTRIBUTION"</td>
+                <td class="dataSize debit" rowspan="2">-5500 UAH</td>
+                <td class="dataSize" rowspan="2"><button class="debitBtn" type="">Expenses</button></td>
+                <td class="dataSize" rowspan="2">More <Select></Select></td>
+            </tr>
+            <tr>
+                <td style="color: #3F4449; font-size: 12px;">Buying 2 DELL Inspiron i7 5000 laptops</td>
+            </tr>
+        </table>
+    </div>
+    <div class="nextSec">
+        <h6>May 28, Tuesday</h6>
+        <div >
+            <div class="bgSec">
+                <div class="rowList">
+                    <p class="rowOne">At "Trinity Figures" </p>
+                    <p class="rowTwo credit">+11099 UAH</p>
+                    <p class="rowTwo "><button class="creditB">Income</button></p>
+                    <p class="rowTwo">More <Select></Select></p>
+                </div>
+                <p class="rowThree">Supply Of Multimedia
+                    Equipment Contract no.23-33</p>
+            </div>
+            <div class="bgSec">
+                <div class="rowList">
+                    <p class="rowOne">Vasily Reduzhenko Petrovich" </p>
+                    <p class="rowTwo debit">-450 UAH</p>
+                    <p class="rowTwo "><button class="debitBtn">Expenses</button></p>
+                    <p class="rowTwo">More <Select></Select></p>
+                </div>
+                <p class="rowThree">Withdrawal of personal funds</p>
+            </div>
+            <div class="bgSec">
+                <div class="rowList">
+                    <p class="rowOne">FOP "Larisa Larina Kuzmina"</p>
+                    <p class="rowTwo credit">+5250 UAH</p>
+                    <p class="rowTwo "><button class="creditB">Income</button></p>
+                    <p class="rowTwo">More <Select></Select></p>
+                </div>
+                <p class="rowThree">Supply of 7 parallel blue laces red color</p>
+            </div>
+            <div class="bgSec">
+                <div class="rowList">
+                    <p class="rowOne">At "Trinity Figures" </p>
+                    <p class="rowTwo credit">+2500 UAH</p>
+                    <p class="rowTwo "><button class="creditB">Income</button></p>
+                    <p class="rowTwo">More <Select></Select></p>
+                </div>
+                <p class="rowThree">Supply Of Multimedia Equipment </p>
+            </div>
 
+        </div>
+    </div>
 </body>
 </html>
