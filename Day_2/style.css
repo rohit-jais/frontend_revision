@@ -176,7 +176,6 @@
   .infoData {
     display: grid;
     grid-template-areas:
-     "nav"
      "left"
       "a b"
       "c d"
@@ -190,14 +189,8 @@
       "s t";
   }
 
-.nav {
-    height: 50px;
-}
 
-.left {
-    height: 200px;
-    margin: 0;
-}
+
 
 
   .a {
@@ -298,8 +291,6 @@
   .infoData {
     display: grid;
     grid-template-areas:
-    "nav"
-    "left"
       "a"
       "d"
       "e"
@@ -321,14 +312,8 @@
       "s"
       "t";
   }
-  .nav {
-    height: 50px;
-}
 
-.left {
-    height: 200px;
-    margin: 0;
-}
+
 
   .a {
     width: auto;
